@@ -29,9 +29,9 @@ namespace Oxide.Plugins
         private void OnFireworkDesignChange(PatternFirework instance, Design design, BasePlayer player)
         {
             int imageSize = 256;
-            Bitmap bitmap = new Bitmap(imageSize, imageSize);
+            Bitmap bmp = new Bitmap(imageSize, imageSize);
 
-            using (Graphics gfx = Graphics.FromImage(bitmap))
+            using (Graphics gfx = Graphics.FromImage(bmp))
             {
                 gfx.Clear(Color.Black);
 
@@ -53,8 +53,8 @@ namespace Oxide.Plugins
                 string folderPath = Path.Combine(Interface.Oxide.DataDirectory, "FireworksLogger");
                 Directory.CreateDirectory(folderPath);
                 string fileName = $"{player.displayName}_{player.userID}_{DateTimeOffset.UtcNow.ToUnixTimeMilliseconds()}FireworksDesign.png";
-                bitmap.Save(Path.Combine(folderPath, fileName), ImageFormat.Png);
-                bitmap.Dispose();
+                bmp.Save(Path.Combine(folderPath, fileName), ImageFormat.Png);
+                bmp.Dispose();
             }
         }
     }
