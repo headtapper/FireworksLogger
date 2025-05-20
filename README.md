@@ -11,8 +11,8 @@ Log designs players create with fireworks in-game.
 
 **In-game fireworks design**
 
-![alt text](https://github.com/headtapper/FireworksLogger/blob/main/FireworksLogger1.png "In-game fireworks design")
+![alt text](https://github.com/headtapper/FireworksLogger/blob/main/FireworksLogger_in-game.png "In-game fireworks design")
 
 **Image logged of fireworks design**
 
-![alt text](https://github.com/headtapper/FireworksLogger/blob/main/FireworksLogger2.png "Logged fireworks design image")
+![alt text](https://github.com/headtapper/FireworksLogger/blob/main/FireworksLogger_logged-image.png "Logged fireworks design image")
