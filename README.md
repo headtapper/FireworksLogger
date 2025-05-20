@@ -2,7 +2,7 @@
 Log designs players create with fireworks in-game.
 
 # Features
-* Save firwork designs as a .png image associated with the user's steam ID and timestamped.
+* Save firework designs as a .png image associated with the user's steam ID and timestamped.
 * Image directory: `{Oxide Data Directory}/FireworksLogger`
 * File name format: `{Player Name}_{Steam ID}_{Timestamp}_FireworksDesign.png`
 
